@@ -7,7 +7,7 @@ RUN mkdir /var/log/v2ray/ \
     && chmod +x /usr/bin/v2ray/v2ray
 
 ENV PATH /usr/bin/v2ray:$PATH
- 
+
 EXPOSE 25143
 
 CMD ["v2ray", "-config=/etc/v2ray/config.json"]
