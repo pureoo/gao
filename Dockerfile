@@ -1,5 +1,5 @@
 FROM alpine:latest
- 
+
 ADD https://raw.githubusercontent.com/v2ray/install/master/docker/official/v2ray /usr/bin/v2ray/
 COPY config.json /etc/v2ray/config.json
 
