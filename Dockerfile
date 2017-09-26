@@ -6,7 +6,7 @@ COPY config.json /etc/v2ray/config.json
 RUN mkdir /var/log/v2ray/ \
     && chmod +x /usr/bin/v2ray/v2ray
 
-ENV PATH /usr/bin/v2ray:$PAT
+ENV PATH /usr/bin/v2ray:$PATH
  
 EXPOSE 25143
 
